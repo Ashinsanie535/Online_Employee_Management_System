@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+
+     <servlet>
+     	<servlet-name>insertServlet</servlet-name>
+     	<servlet-class>Employeepackages.insertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>insertServlet</servlet-name>
+     	<url-pattern>/insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>GetAllNotices</servlet-name>
+     	<servlet-class>Employeepackages.GetAllNotices</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>GetAllNotices</servlet-name>
+     	<url-pattern>/GetAllNotices</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>updateServlet</servlet-name>
+     	<servlet-class>Employeepackages.updateServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateServlet</servlet-name>
+     	<url-pattern>/updateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<servlet-class>Employeepackages.DeleteServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<url-pattern>/DeleteServlet</url-pattern>
+     </servlet-mapping>    
+     
+     
+        <servlet>
+     	<servlet-name>loginServlet</servlet-name>
+     	<servlet-class>Employeepackages.loginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>loginServlet</servlet-name>
+     	<url-pattern>/loginServlet</url-pattern>
+     </servlet-mapping>   
+     
+     
+     
+
+
+        <servlet>
+     	<servlet-name>salaryInsertServlet</servlet-name>
+     	<servlet-class>Employeepackages.salaryInsertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>salaryInsertServlet</servlet-name>
+     	<url-pattern>/salaryInsertServlet</url-pattern>
+     </servlet-mapping>
+
+
+
+        <servlet>
+     	<servlet-name>getAllSalaries</servlet-name>
+     	<servlet-class>Employeepackages.getAllSalaries</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>getAllSalaries</servlet-name>
+     	<url-pattern>/getAllSalaries</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+          <servlet>
+     	<servlet-name>DeleteSalaryServlet</servlet-name>
+     	<servlet-class>Employeepackages.DeleteSalaryServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteSalaryServlet</servlet-name>
+     	<url-pattern>/DeleteSalaryServlet</url-pattern>
+     </servlet-mapping>
+        
+     
+     
+          <servlet>
+     	<servlet-name>UpdateSalaryServlet</servlet-name>
+     	<servlet-class>Employeepackages.UpdateSalaryServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UpdateSalaryServlet</servlet-name>
+     	<url-pattern>/UpdateSalaryServlet</url-pattern>
+     </servlet-mapping>    
+     
+     
+     
+   
+     
+        <servlet>
+     	<servlet-name>InsertAttendanceServlet</servlet-name>
+     	<servlet-class>Employeepackages.InsertAttendanceServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>InsertAttendanceServlet</servlet-name>
+     	<url-pattern>/InsertAttendanceServlet</url-pattern>
+     </servlet-mapping>      
+     
+     
+     
+     
+       <servlet>
+     	<servlet-name>attendanceShowServlet</servlet-name>
+     	<servlet-class>Employeepackages.attendanceShowServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>attendanceShowServlet</servlet-name>
+     	<url-pattern>/attendanceShowServlet</url-pattern>
+     </servlet-mapping> 
+     
+     
+      
+     
+     
+      <servlet>
+     	<servlet-name>UpdateAttendanceServlet</servlet-name>
+     	<servlet-class>Employeepackages.UpdateAttendanceServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UpdateAttendanceServlet</servlet-name>
+     	<url-pattern>/UpdateAttendanceServlet</url-pattern>
+     </servlet-mapping>     
+     
+     
+     
+       <servlet>
+     	<servlet-name>DeleteAttendanceServlet</servlet-name>
+     	<servlet-class>Employeepackages.DeleteAttendanceServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteAttendanceServlet</servlet-name>
+     	<url-pattern>/DeleteAttendanceServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+       <servlet>
+     	<servlet-name>showAllAccounts</servlet-name>
+     	<servlet-class>Employeepackages.showAllAccounts</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>showAllAccounts</servlet-name>
+     	<url-pattern>/showAllAccounts</url-pattern>
+     </servlet-mapping>    
+     
+     
+         <servlet>
+     	<servlet-name>insertAccounts</servlet-name>
+     	<servlet-class>Employeepackages.insertAccounts</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>insertAccounts</servlet-name>
+     	<url-pattern>/insertAccounts</url-pattern>
+     </servlet-mapping>    
+     
+     
+
+     
+            <servlet>
+     	<servlet-name>AccountUpdateServelet</servlet-name>
+     	<servlet-class>Employeepackages.AccountUpdateServelet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>AccountUpdateServelet</servlet-name>
+     	<url-pattern>/AccountUpdateServelet</url-pattern>
+     </servlet-mapping>   
+     
+     
+     
+     
+    <servlet>
+     	<servlet-name>AccountDeleteServlet</servlet-name>
+     	<servlet-class>Employeepackages.AccountDeleteServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>AccountDeleteServlet</servlet-name>
+     	<url-pattern>/AccountDeleteServlet</url-pattern>
+     </servlet-mapping>
+
+</web-app>
